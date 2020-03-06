@@ -1,0 +1,36 @@
+Mar 05 08:20:45.767 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Mar 05 08:20:45.771 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 52677.
+Mar 05 08:20:46.191 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 05 08:20:46.192 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\ramir\OneDrive\Documents\REDES2\Laboratorio\Practica 1\REDES2_1S2020_P1_GRUPO3\project-files\dynamips 
+Mar 05 08:20:46.193 GENERAL: working_dir=C:\Users\ramir\OneDrive\Documents\REDES2\Laboratorio\Practica 1\REDES2_1S2020_P1_GRUPO3\project-files\dynamips
+Mar 05 08:20:46.194 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\ramir\OneDrive\Documents\REDES2\Laboratorio\Practica 1\REDES2_1S2020_P1_GRUPO3\project-files\dynamips\db423a6f-4aa6-45ac-9581-7b0da41e99fe 
+Mar 05 08:20:46.201 GENERAL: working_dir=C:\Users\ramir\OneDrive\Documents\REDES2\Laboratorio\Practica 1\REDES2_1S2020_P1_GRUPO3\project-files\dynamips\db423a6f-4aa6-45ac-9581-7b0da41e99fe
+Mar 05 08:20:46.202 HYPERVISOR: exec_cmd: vm create R4 4 c3725 
+Mar 05 08:20:46.208 VM: VM R4 created.
+Mar 05 08:20:46.210 HYPERVISOR: exec_cmd: vm set_con_tcp_port R4 5003 
+Mar 05 08:20:46.210 HYPERVISOR: exec_cmd: c3725 get_mac_addr R4 
+Mar 05 08:20:46.212 HYPERVISOR: exec_cmd: vm set_disk0 R4 0 
+Mar 05 08:20:46.213 HYPERVISOR: exec_cmd: vm set_exec_area R4 64 
+Mar 05 08:20:46.214 HYPERVISOR: exec_cmd: vm get_status R4 
+Mar 05 08:20:46.214 HYPERVISOR: exec_cmd: vm set_idle_pc R4 0x60bf8d58 
+Mar 05 08:20:46.216 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/ramir/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Mar 05 08:20:46.217 HYPERVISOR: exec_cmd: vm set_nvram R4 256 
+Mar 05 08:20:46.464 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/ramir/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Mar 05 08:20:50.542 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/ramir/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Mar 05 08:27:55.963 HYPERVISOR: exec_cmd: vm get_status R4 
+Mar 05 08:27:55.969 HYPERVISOR: exec_cmd: vm extract_config R4 
+Mar 05 08:30:25.017 HYPERVISOR: exec_cmd: vm get_status R4 
+Mar 05 08:30:25.018 HYPERVISOR: exec_cmd: vm slot_add_binding R4 1 0 NM-16ESW 
+Mar 05 08:31:36.601 HYPERVISOR: exec_cmd: vm get_status R4 
+Mar 05 08:31:36.608 HYPERVISOR: exec_cmd: vm extract_config R4 
+Mar 05 23:41:42.292 HYPERVISOR: exec_cmd: vm slot_add_binding R4 0 16 WIC-2T 
+Mar 05 23:42:54.579 HYPERVISOR: exec_cmd: vm slot_add_binding R4 0 32 WIC-2T 
+Mar 05 23:43:19.114 HYPERVISOR: exec_cmd: nio create_udp udp-15bbe2d5-930c-45ed-9ebf-d5c914534c42 10010 127.0.0.1 10011 
+Mar 05 23:43:19.353 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 0 17 udp-15bbe2d5-930c-45ed-9ebf-d5c914534c42 
+Mar 05 23:43:19.354 HYPERVISOR: exec_cmd: vm get_status R4 
+Mar 05 23:44:10.331 HYPERVISOR: exec_cmd: nio create_udp udp-89873c46-2193-4d07-967c-1fbee6b00c4f 10022 127.0.0.1 10023 
+Mar 05 23:44:10.334 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 0 32 udp-89873c46-2193-4d07-967c-1fbee6b00c4f 
+Mar 05 23:44:10.335 HYPERVISOR: exec_cmd: vm get_status R4 
+Mar 05 23:45:08.947 HYPERVISOR: exec_cmd: nio create_udp udp-dcd1a20c-a940-4cd5-b884-82e5c6f17820 10040 127.0.0.1 10041 
+Mar 05 23:45:08.949 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 0 1 udp-dcd1a20c-a940-4cd5-b884-82e5c6f17820 
+Mar 05 23:45:08.950 HYPERVISOR: exec_cmd: vm get_status R4 

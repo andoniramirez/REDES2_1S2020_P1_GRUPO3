@@ -1,0 +1,8 @@
+cygwin warning:
+  MS-DOS style path detected: C:\Users\ramir\OneDrive\Documents\REDES2\Laboratorio\Practica 1\REDES2_1S2020_P1_GRUPO3\project-files\dynamips
+  Preferred POSIX equivalent is: /cygdrive/c/Users/ramir/OneDrive/Documents/REDES2/Laboratorio/Practica 1/REDES2_1S2020_P1_GRUPO3/project-files/dynamips
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+vm_mmap_open_file: unable to open file 'c3725_i1_rom' (No such file or directory)
+vm_mmap_open_file: unable to open file 'c3725_i1_rom' (No such file or directory)
