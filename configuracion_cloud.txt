@@ -1,0 +1,12 @@
+CONFIGURACION DE LA NUBE PARA ACCESO A INTERNET GNS3:
+
+CONFIGURACION EN EL EQUIPO:
+
+1. Irse a configuracion de red e internet
+2. Cambiar las opciones de adaptador
+3. Dirigirse a la Adaptador con el que tengamos acceso a internet, ya sea el adaptador de Ethernet o Wi-Fi
+4. En las propiedades del adaptador, irse a la pestaña de uso compartido (Sharing)
+5. Habilitar la opcion de Permitir que otros usuarios de otras redes se conecten a traves de la conexion
+   a Internet a este equipo (Allow other network users to connect through this computer's internet conection)
+6. El lista de los adaptadores seleccionar el que vamos a utilizar en la Cloud en GNS3, en este caso 
+   se eligio 'VMware Network Adapter VMnet8'
