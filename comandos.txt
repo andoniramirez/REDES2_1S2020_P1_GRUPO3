@@ -128,3 +128,8 @@ exit
 exit
 wr
 copy running-config startup-config
+
+
+---Configuracion de Servidor DHCP
+
+
