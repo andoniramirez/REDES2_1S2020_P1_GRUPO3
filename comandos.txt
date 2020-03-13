@@ -91,3 +91,40 @@ end
 show ip interface brief
 
 wr
+
+
+CONFIGURACION DE RIP
+R1
+show ip route
+conf term
+router rip
+version 2
+network 192.168.100.0
+exit
+exit
+wr
+copy running-config startup-config
+
+R3
+show ip route
+conf term
+router rip
+version 2
+network 192.168.100.0
+network 192.168.100.64
+exit
+exit
+wr
+copy running-config startup-config
+
+R4
+show ip route
+conf term
+router rip
+version 2
+network 192.168.100.0
+network 192.168.100.64
+exit
+exit
+wr
+copy running-config startup-config
