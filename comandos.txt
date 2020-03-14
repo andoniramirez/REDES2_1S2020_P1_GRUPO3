@@ -22,16 +22,17 @@ no shutdown
 end
 
 configure terminal
-int s1/2
+int s1/1
 ip address 192.168.100.2 255.255.255.192
 no shutdown
 end
 
 configure terminal
-int s1/1
+int s1/2
 ip address 192.168.100.3 255.255.255.192
 no shutdown
 end
+
 
 show ip interface brief
 
@@ -59,7 +60,7 @@ wr
 CONFIGURACION DEL ROUTER 3:
 
 configure terminal
-int s1/2
+int s1/1
 ip address 192.168.100.5 255.255.255.192
 no shutdown
 end
@@ -77,7 +78,7 @@ wr
 CONFIGURACION DEL ROUTER 4:
 
 configure terminal
-int s1/1
+int s1/2
 ip address 192.168.100.6 255.255.255.192
 no shutdown
 end
@@ -133,3 +134,17 @@ copy running-config startup-config
 ---Configuracion de Servidor DHCP
 
 
+
+CONFIGURACION RUTEO ESTATICO
+
+R1
+configure terminal
+ip route 192.168.100.64 255.255.255.192 192.168.100.0
+end
+
+R2
+configure terminal
+ip route 192.168.100.0 255.255.255.192 192.168.100.64
+ip route 192.168.100.64 255.255.255.192 192.168.100.0
+
+end
